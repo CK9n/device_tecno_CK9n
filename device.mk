@@ -226,7 +226,8 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResOverlayCK9n \
-    TetheringConfigOverlayCK9n
+    TetheringConfigOverlayCK9n \
+    WifiOverlayCK9n
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
