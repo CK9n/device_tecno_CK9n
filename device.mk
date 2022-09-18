@@ -226,6 +226,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResOverlayCK9n \
+    TelephonyOverlayCK9n \
     TetheringConfigOverlayCK9n \
     WifiOverlayCK9n
 
