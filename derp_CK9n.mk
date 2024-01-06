@@ -11,10 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/tecno/CK9n/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common DerpFest stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_CK9n
+# Face unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+PRODUCT_NAME := derp_CK9n
 PRODUCT_DEVICE := CK9n
 PRODUCT_MANUFACTURER := TECNO
 PRODUCT_BRAND := TECNO
