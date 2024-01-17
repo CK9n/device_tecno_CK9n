@@ -233,6 +233,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayCK9n \
     FrameworksResOverlayCK9n \
+    SettingsOverlayCK9n \
     TelephonyOverlayCK9n \
     TetheringConfigOverlayCK9n \
     WifiOverlayCK9n
