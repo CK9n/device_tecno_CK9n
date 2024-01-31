@@ -876,6 +876,10 @@ system/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
 system/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 system/priv-app/ImsService/ImsService.apk|8ef6624decf1b030dbbf63f22dbdac6a98467b5a
 
+# Secure element
+vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
+vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
+
 # Sensors
 vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek
 vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc
